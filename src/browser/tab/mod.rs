@@ -34,7 +34,7 @@ use crate::protocol::network::methods::SetExtraHTTPHeaders;
 use crate::protocol::network::Cookie;
 use std::thread::sleep;
 
-use self::keys::KeyDefinition;
+pub use self::keys::{KeyDefinition, get_key_definition};
 
 pub mod element;
 mod keys;
